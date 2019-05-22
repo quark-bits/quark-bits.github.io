@@ -2,7 +2,7 @@
 
 Here we'll use cqlsh for executing CQL.
 
-##### Create Keyspace
+#### Create Keyspace
     CREATE KEYSPACE MyKeySpace 
     WITH REPLICATION = {
         'class': 'SimpleStrategy',
@@ -10,7 +10,7 @@ Here we'll use cqlsh for executing CQL.
     };
     
     
-##### Switch Between Keyspaces
+#### Switch Between Keyspaces
     USE MyKeySpace;
     
     
