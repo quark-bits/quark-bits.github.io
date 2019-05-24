@@ -1,7 +1,7 @@
 # CQLs
 Syntax are very similar to Relational.
 
-###INSERT
+### INSERT
     
     INSERT INTO MyTable(Column1, Column2, Column3)
     VALUES ('Value1','Value2','Value3');
@@ -14,7 +14,7 @@ In the below CQL, we are inserting uuid for id.
 
 <br/>
 
-###SELECT
+### SELECT
 
     SELECT * FROM MyTable;
     
@@ -22,7 +22,7 @@ In the below CQL, we are inserting uuid for id.
          
    
 
-###SELECT
+### SELECT
     
     TRUNCATE MyTable;
     
