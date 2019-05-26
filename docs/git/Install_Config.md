@@ -1,8 +1,9 @@
 ## Install and Configuration
 
 ### Installing GIT
-Follow the link to download and install https://git-scm.com/downloads
-##
+Follow the [link](https://git-scm.com/downloads) to download and install.
+
+---
 
 ### Config
 Config file locations for Mac/Unix based systems. Locations vary for windows.
@@ -31,3 +32,6 @@ Alternatively instead of editing the file manually, we can execute commands by p
         
     To view specific config,   
         $ git config user.name
+                
+
+---                
