@@ -12,7 +12,6 @@ This helps while using GIT commands in commandline.
                 source ~/.git-completion.bash
             fi
 
----
 
 ### Tracking Empty Directories
 * By default, Git tracks only files and folders that leads to the files. 
@@ -20,7 +19,6 @@ This helps while using GIT commands in commandline.
 * To track directory, we can create an empty file in the directory that we wish to track. As a convention, the file 
 is named as `.gitkeep` (opposite to .gitignore naming).
 
---- 
          
 ### Aliases for common Git commands
 **Note**: If we are newbie to Git, better to stick with actual Git commands. 
@@ -39,4 +37,3 @@ is named as `.gitkeep` (opposite to .gitignore naming).
         // Usage.
         $ git logs
     
----
