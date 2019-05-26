@@ -31,6 +31,8 @@ We edit the file and use same commands as Adding Files.
         $ git rm /folder_name/filename.ext
         $ git commit -m "commit_message"
                 
+##### Renaming the Files
+    $ git mv old_file_name.ext to new_file_name.ext               
             
 ##### Undoing Changes
 * Undo changes to working directory changes. (changes that are not staged/commited)
