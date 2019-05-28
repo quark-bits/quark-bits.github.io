@@ -128,13 +128,12 @@
 
 
 - ##### Merge Conflicts:
+    - ###### Abort Merge         
+            $ git merge --abort   
 
-    ###### Abort Merge         
-        $ git merge --abort   
+    - ###### Resolve Conflict manually
+            // Git will mark the files with code block that has conflicts. We need to manually make changes and resolve conflict.
 
-    ###### Resolve Conflict manually
-        // Git will mark the files with code block that has conflicts. We need to manually make changes and resolve conflict.
-
-        // Other option is to use mergetool to ease the resolving of merge conflicts.
-        // Below command displays the tools that are avaiable to be used.            
-        $ git mergetool
+            // Other option is to use mergetool to ease the resolving of merge conflicts.
+            // Below command displays the tools that are avaiable to be used.            
+            $ git mergetool
