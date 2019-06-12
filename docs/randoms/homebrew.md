@@ -78,9 +78,11 @@ I've indicated packages that are mostly required for a Java Developer.
     
     
     $ cd <project_directory>
-    $ jenv local openjdk64-1.8.0.212
+    $ jenv local openjdk64-1.8.0.212    
+    // This will set openjdk64-1.8.0.212 as java version for this specific project_directory(per directory)
     
-    // This will set openjdk64-1.8.0.212 as java version for this specific project.
+    $ jenv shell 1.8.0.212
+    // Configure java for shell instance
     
     
     
